@@ -11,7 +11,7 @@ gem 'rails', '~> 8.1'
 # Asset Pipeline
 gem 'dartsass-rails', '~> 0.5'
 gem 'image_processing', '~> 1.14'
-gem 'jbuilder', '~> 2.12'
+gem 'jbuilder', '~> 2.15'
 gem 'sprockets-rails'
 gem 'terser'
 
@@ -27,7 +27,7 @@ gem 'font-awesome-sass', '~> 6.5'
 # older utility/component class names while they are being rewritten;
 # app/assets/tailwind/legacy-ui.css maps those selectors onto local
 # Tailwind-era styles without shipping another CSS framework.
-gem 'tailwindcss-rails', '~> 4.3'
+gem 'tailwindcss-rails', '~> 4.6'
 
 # Authentication
 gem 'devise', '~> 5.0'
@@ -35,20 +35,20 @@ gem 'omniauth-github', '~> 2.0'
 gem 'omniauth-rails_csrf_protection'
 
 # Forms & URLs
-gem 'friendly_id', '~> 5.5'
+gem 'friendly_id', '~> 5.7'
 
 # Infrastructure
 gem 'browser', '~> 6.0'
-gem 'faraday', '~> 2.9'
+gem 'faraday', '~> 2.14'
 gem 'git'
-gem 'net-ssh', '~> 7.2'
+gem 'net-ssh', '~> 7.3'
 gem 'postmark-rails', '~> 0.22'
 gem 'redcarpet', '~> 3.6'
 gem 'rqrcode', '~> 3.2'
-gem 'stripe', '~> 19.0'
+gem 'stripe', '~> 19.3'
 
 # Monitoring
-gem 'sentry-rails', '~> 6.5'
+gem 'sentry-rails', '~> 6.6'
 gem 'sentry-ruby', '~> 6.5'
 
 # Analytics & Tracking
@@ -70,7 +70,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'letter_opener'
   gem 'minitest', '~> 6.0'
-  gem 'selenium-webdriver', '~> 4.16'
+  gem 'selenium-webdriver', '~> 4.45'
 end
 
 group :development do
